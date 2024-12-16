@@ -54,3 +54,5 @@ CREATE DATABES new_database;
 CREATE USER devops WITH PASSWORD 'new_password';
 GRANT ALL PRIVILEDGES ON DATABASE new_database TO devops;
 ```
+
+PostgreSQL DBA guide: https://roadmap.sh/postgresql-dba

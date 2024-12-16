@@ -1,7 +1,10 @@
 # database-infrastructure
-How to use opensource databases for infrastructure purpose:
+How to use opensource or cloud managed databases for infrastructure purpose:
 - installation
 - configuration
-- backup
-- recovery
+- reliability
+  - backup
+  - recovery
+  - redundancy
+  - scalability
 - security

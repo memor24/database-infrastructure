@@ -1,5 +1,6 @@
 PostgreSQL is one of the most popular opensource databases, and is very similar to Oracle database.\
-Here is the how to guide for a development environment of PostgreSQL on CentOS Stream 9:
+The way to manage database infrastructure in the production environment [LINK] is with automation tools like Terraform, Ansible, etc. \
+But for development environment, a CentOS server is used. Here is the how to guide for a development environment of PostgreSQL on CentOS Stream 9:
 
 ## installation
 

@@ -5,8 +5,12 @@ Link to Postgres on AWS (production)
 But for development environment, a CentOS server is used. Here is the how to guide for a development environment of PostgreSQL on CentOS Stream 9:
 
 ## installation
-
-initializing a database
+installation on CentOS
+```
+sudo yum update
+sudo yum install postgresql-server postgresql-contrib
+```
+initialize the database
 ```
 sudo postgresql-setup --initdb --unit postgresql
 ```

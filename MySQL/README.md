@@ -30,7 +30,7 @@ firewall-cmd --reload
 
 sudo mysql_secure_installation
 ```
-login as root and write SQL:
+## usage
 ```
 mysql -u root -p
 ```

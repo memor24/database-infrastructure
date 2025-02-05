@@ -4,13 +4,6 @@ Link to MongoDB_atlas on AWS (production)\
 
 A few other NoSQL databases:
 Link to DynamoDB
-(Link to CosmosDB on Azure .tf)
-
-But for development environment, a Linux server is used. Here is the how to guide for a development environment of PostgreSQL on CentOS Stream 9:
-
-installation
-configuration
-usage
 
 
 The above info is for an infrastructure context only. \

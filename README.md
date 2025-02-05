@@ -10,4 +10,4 @@ How to use opensource or cloud managed databases for infrastructure purpose:
 - security
 ## Note
 The way to do that in the production environment is with automation tools like Terraform, Ansible, etc.\
-But for development environment, a CentOS server is used. NixOS can also be used. 
+For development environment, a CentOS server is used. NixOS can also be used. 

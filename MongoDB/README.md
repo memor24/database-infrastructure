@@ -6,7 +6,4 @@ A few other NoSQL databases:
 Link to DynamoDB
 
 
-The above info is for an infrastructure context only. \
-For a complete DBA guide, visit: https://roadmap.sh/mongodb
-
 

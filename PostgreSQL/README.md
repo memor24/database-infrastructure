@@ -1,11 +1,18 @@
+# PostgreSQL
 PostgreSQL is one of the most popular opensource databases, and is very similar to Oracle database.\
-The way to manage database infrastructure in the production environment [LINK] is with automation tools like Terraform, Ansible, etc. \
+The way to manage database infrastructure in the production environment is with automation tools like Terraform, Ansible, etc. \
 Link to Postgres on AWS (production)
 
-But for development environment, a CentOS server is used. Here is the how to guide for a development environment of PostgreSQL on CentOS Stream 9:
+But for development environment, a CentOS server is used. \
+Here is the how to guide for a development environment of PostgreSQL on CentOS Stream 9:
 
-## installation
-installation on CentOS
+## installation on premise
+install Ansible, and then install Postgres with an Ansible role:
+```
+ansible-galaxy role install geerlingguy.postgresql
+```
+## note:
+alternatively, it can be installed manually steb by step e.g. on CentOS
 ```
 sudo yum update
 sudo yum install postgresql-server postgresql-contrib
@@ -55,4 +62,4 @@ CREATE USER devops WITH PASSWORD 'new_password';
 GRANT ALL PRIVILEDGES ON DATABASE new_database TO devops;
 ```
 
-PostgreSQL DBA guide: https://roadmap.sh/postgresql-dba
+The above info is for an infrastructure context only. Here is a [DBA guide](https://roadmap.sh/postgresql-dba) though.
